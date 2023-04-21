@@ -1,0 +1,9 @@
+slide_text,instruction,triangle_pos,arrow_posy,arrow_posx
+Slide 1 of 8,This experiment is about using information to make decisions. Each trial will look similar to this:,10,10,10
+Slide 2 of 8,"First, you should read the text above the image.",10,0.15,-0.55
+Slide 3 of 8,Then you should look at the image. It will show a map of a country. The colour of each region of the country reflects its pollution level. Pollution levels are displayed in standardised units.,10,-0.075,-0.24
+Slide 4 of 8,Data on different types of pollution are shown throughout the experiment. (A colour scale may be provided or not provided to you.),10,-0.075,-0.24
+Slide 5 of 8,"Then you should read the question below the image. Here, the question asks you to rate how severe the pollution levels in the pointed region is.",10,-0.28,-0.53
+Slide 6 of 8,You should move the marker to indicate your response.,0,-0.36,-0.45
+Slide 7 of 8,"You can change your answer as many times as you like, then you should press the spacebar to move on to the next trial.",0.1,-0.36,-0.45
+Slide 8 of 8,Press the spacebar to begin the experiment.,-0.1,10,10

@@ -1,0 +1,703 @@
+1.0346 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.3095 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.3097 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f90920a9310>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f90637254f0>, multiSample=False, name='window1', numSamples=2, pos=(448, 300), screen=0, size=array([2560, 1440]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.3098 	EXP 	window1: mouseVisible = True
+10.3099 	EXP 	window1: mouseVisible = True
+10.3099 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.3099 	EXP 	window1: recordFrameIntervals = False
+10.4793 	EXP 	window1: recordFrameIntervals = True
+12.1471 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.1810 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+13.8886 	EXP 	Created intro_text2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='intro_text2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.8954 	EXP 	Created info_sheet_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='info_sheet_image', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), size=array([1.05, 0.7 ]), texRes=512, units='height', win=Window(...))
+13.8963 	EXP 	Created counter = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='counter', opacity=1.0, ori=0, pos=array([ 0.  , -0.29]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.9099 	EXP 	Created move_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.035, italic=False, languageStyle='LTR', name='move_text', opacity=1.0, ori=0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.9311 	EXP 	Created info_sheet_next = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='info_sheet_next', opacity=1.0, ori=0, pos=array([ 0.  , -0.43]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.1)
+13.9388 	EXP 	Created study_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='study_title', opacity=1.0, ori=0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='Decision-Making With Maps', units='height', win=Window(...), wrapWidth=1)
+13.9394 	EXP 	Created item_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='item_text', opacity=1.0, ori=0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.9589 	EXP 	Created keypress_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='keypress_instructions', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.9717 	EXP 	Created age = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='age', opacity=1.0, ori=0.0, pos=array([0.  , 0.28]), rgb=UNKNOWN, text='Please enter your age (in years):', units='height', win=Window(...), wrapWidth=1)
+13.9760 	EXP 	Created gender = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='gender', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='How would you describe your gender?', units='height', win=Window(...), wrapWidth=1)
+13.9870 	EXP 	window1: mouseVisible = True
+14.0668 	EXP 	Created genderResp1 = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=True, font='Arial', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='genderResp1', opacity=None, ori=0.0, pos=array([-0.19, -0.05]), readOnly=False, self=UNKNOWN, size=array([0.015, 0.15 ]), startValue=None, style='radio', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+14.0739 	EXP 	Created continue_box_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='continue_box_2', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), size=array([0.17, 0.06]), units='height', vertices=ndarray(...), win=Window(...))
+14.0788 	EXP 	Created continue_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='continue_text_2', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Continue', units='height', win=Window(...), wrapWidth=1)
+14.0788 	EXP 	window1: mouseVisible = True
+14.0847 	EXP 	Created edu_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='edu_text', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.0867 	EXP 	window1: mouseVisible = True
+14.2151 	EXP 	Created edu_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-2, fillColor=None, flip=False, font='Arial', granularity=1.0, labelColor=None, labelHeight=0.029999999999999995, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='edu_slider', opacity=None, ori=-0.0, pos=array([ 0.  , -0.05]), readOnly=False, self=UNKNOWN, size=array([0.03, 0.5 ]), startValue=None, style='radio', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7, 8]), units='height', win=Window(...))
+14.2228 	EXP 	Created literacy_top = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='literacy_top', opacity=1.0, ori=0.0, pos=array([-0.7,  0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.3)
+14.2338 	EXP 	Created questions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='questions_text', opacity=1.0, ori=0.0, pos=array([-0.7 , -0.05]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.75)
+14.2358 	EXP 	window1: mouseVisible = True
+14.2764 	EXP 	Created q1_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-2, fillColor=None, flip=False, font='Arial', granularity=1.0, labelColor=None, labelHeight=0.022, labelWrapWidth=None, labels=['Not at \n all good', 'Extremely \n good'], lineColor=None, markerColor=None, name='q1_slider', opacity=None, ori=0.0, pos=array([0.39, 0.27]), readOnly=False, self=UNKNOWN, size=array([0.55, 0.03]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6]), units='height', win=Window(...))
+14.2784 	EXP 	window1: mouseVisible = True
+14.3042 	EXP 	Created q2_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Arial', granularity=1.0, labelColor=None, labelHeight=0.022, labelWrapWidth=None, labels=['Not at \n all good', 'Extremely \n good'], lineColor=None, markerColor=None, name='q2_slider', opacity=None, ori=0.0, pos=array([0.39, 0.13]), readOnly=False, self=UNKNOWN, size=array([0.55, 0.03]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6]), units='height', win=Window(...))
+14.3062 	EXP 	window1: mouseVisible = True
+14.3321 	EXP 	Created q3_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-4, fillColor=None, flip=False, font='Arial', granularity=1.0, labelColor=None, labelHeight=0.022, labelWrapWidth=None, labels=['Not at \n all good', 'Extremely \n good'], lineColor=None, markerColor=None, name='q3_slider', opacity=None, ori=0.0, pos=array([ 0.39, -0.02]), readOnly=False, self=UNKNOWN, size=array([0.55, 0.03]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6]), units='height', win=Window(...))
+14.3341 	EXP 	window1: mouseVisible = True
+14.3598 	EXP 	Created q4_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-5, fillColor=None, flip=False, font='Arial', granularity=1.0, labelColor=None, labelHeight=0.022, labelWrapWidth=None, labels=['Not at \n all good', 'Extremely \n good'], lineColor=None, markerColor=None, name='q4_slider', opacity=None, ori=0.0, pos=array([ 0.39, -0.16]), readOnly=False, self=UNKNOWN, size=array([0.55, 0.03]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6]), units='height', win=Window(...))
+14.3617 	EXP 	window1: mouseVisible = True
+14.3871 	EXP 	Created q5_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-6, fillColor=None, flip=False, font='Arial', granularity=1.0, labelColor=None, labelHeight=0.022, labelWrapWidth=None, labels=['Not at \n all good', 'Extremely \n good'], lineColor=None, markerColor=None, name='q5_slider', opacity=None, ori=0.0, pos=array([ 0.39, -0.33]), readOnly=False, self=UNKNOWN, size=array([0.55, 0.03]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6]), units='height', win=Window(...))
+14.3877 	EXP 	Created slide_number = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='slide_number', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.3883 	EXP 	Created instruction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instruction_text', opacity=1.0, ori=0.0, pos=array([0.  , 0.29]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.3913 	EXP 	Created spacebar_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='spacebar_3', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.44]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.4260 	EXP 	Created instruction_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/group_a/9cs.jpeg', interpolate=True, mask=None, maskParams=None, name='instruction_image', opacity=1.0, ori=0.0, pos=array([ 0.   , -0.075]), size=array([0.36, 0.36]), texRes=128.0, units='height', win=Window(...))
+14.4317 	EXP 	Created EXsentence1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.65490196, 0.65490196, 0.65490196]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='EXsentence1', opacity=1.0, ori=0.0, pos=array([0.  , 0.14]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.4)
+14.4366 	EXP 	Created question_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.65490196, 0.65490196, 0.65490196]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='question_text_2', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.29]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.4585 	EXP 	Created slider_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='slider_image.png', interpolate=True, mask=None, maskParams=None, name='slider_image', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.37]), size=array([0.6 , 0.09]), texRes=128.0, units='height', win=Window(...))
+14.4599 	EXP 	Created triangle = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-8.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='triangle', opacity=1.0, ori=180.0, pos=array([0., 0.]), size=array([0.06, 0.03]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.4642 	EXP 	Created arrow = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='arrow', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='→', units='height', win=Window(...), wrapWidth=1)
+14.4649 	EXP 	Created sentence_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='sentence_text', opacity=1.0, ori=0.0, pos=array([0.  , 0.39]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.2)
+14.4694 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0.  , 0.06]), size=array([0.6 , 0.43]), texRes=128.0, units='height', win=Window(...))
+14.4701 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='question_text', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.29]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.4723 	EXP 	window1: mouseVisible = True
+14.5011 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-4, fillColor=None, flip=False, font='Arial', granularity=None, labelColor=None, labelHeight=0.029999999999999995, labelWrapWidth=None, labels=('Not very severe', 'Very severe'), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0.  , -0.35]), readOnly=False, self=UNKNOWN, size=array([0.5 , 0.04]), startValue=None, style='rating', styleTweaks=['triangleMarker'], ticks=array([1, 2]), units='height', win=Window(...))
+14.5017 	EXP 	Created trial_counter_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='trial_counter_text', opacity=1.0, ori=0, pos=array([0.5 , 0.43]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.5148 	EXP 	Created spacebar_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='spacebar_text', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.44]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.5346 	EXP 	Created debrief_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='debrief_text', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.5444 	EXP 	Created spacebar_debrief = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='spacebar_debrief', opacity=1.0, ori=0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text='Press the spacebar to continue.', units='height', win=Window(...), wrapWidth=1)
+14.5501 	EXP 	window1: mouseVisible = True
+14.5512 	EXP 	Created continue_box = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='continue_box', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), size=array([0.17, 0.06]), units='height', vertices=ndarray(...), win=Window(...))
+14.5534 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Continue', units='height', win=Window(...), wrapWidth=1)
+14.5663 	EXP 	Created comment_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='comment_instructions', opacity=1.0, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.5755 	EXP 	Created final_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='final_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.5943 	WARNING 	t of last frame was 2447.33ms (=1/0)
+14.5943 	EXP 	ageResp: autoLog = True
+14.5943 	EXP 	genderResp1: autoLog = True
+14.5943 	EXP 	genderResp1: markerPos = None
+14.5943 	EXP 	genderResp1: styleTweaks = []
+14.5943 	EXP 	genderResp1: styleTweaks = []
+14.5943 	EXP 	genderResp1: styleTweaks = []
+14.5943 	EXP 	genderResp1: styleTweaks = []
+14.5943 	EXP 	genderResp1: contrast = 1.0
+14.5943 	EXP 	genderResp1: autoLog = True
+14.5943 	EXP 	genderResp2: autoLog = True
+14.5943 	EXP 	edu_slider: autoLog = True
+14.5943 	EXP 	edu_slider: markerPos = None
+14.5943 	EXP 	edu_slider: styleTweaks = []
+14.5943 	EXP 	edu_slider: styleTweaks = []
+14.5943 	EXP 	edu_slider: styleTweaks = []
+14.5943 	EXP 	edu_slider: styleTweaks = []
+14.5943 	EXP 	edu_slider: contrast = 1.0
+14.5943 	EXP 	edu_slider: autoLog = True
+14.5943 	EXP 	q1_slider: autoLog = True
+14.5943 	EXP 	q1_slider: markerPos = None
+14.5943 	EXP 	q1_slider: styleTweaks = []
+14.5943 	EXP 	q1_slider: styleTweaks = []
+14.5943 	EXP 	q1_slider: styleTweaks = []
+14.5943 	EXP 	q1_slider: styleTweaks = []
+14.5943 	EXP 	q1_slider: contrast = 1.0
+14.5943 	EXP 	q1_slider: autoLog = True
+14.5943 	EXP 	q2_slider: autoLog = True
+14.5943 	EXP 	q2_slider: markerPos = None
+14.5943 	EXP 	q2_slider: styleTweaks = []
+14.5943 	EXP 	q2_slider: styleTweaks = []
+14.5943 	EXP 	q2_slider: styleTweaks = []
+14.5943 	EXP 	q2_slider: styleTweaks = []
+14.5943 	EXP 	q2_slider: contrast = 1.0
+14.5943 	EXP 	q2_slider: autoLog = True
+14.5943 	EXP 	q3_slider: autoLog = True
+14.5943 	EXP 	q3_slider: markerPos = None
+14.5943 	EXP 	q3_slider: styleTweaks = []
+14.5943 	EXP 	q3_slider: styleTweaks = []
+14.5943 	EXP 	q3_slider: styleTweaks = []
+14.5943 	EXP 	q3_slider: styleTweaks = []
+14.5943 	EXP 	q3_slider: contrast = 1.0
+14.5943 	EXP 	q3_slider: autoLog = True
+14.5943 	EXP 	q4_slider: autoLog = True
+14.5943 	EXP 	q4_slider: markerPos = None
+14.5943 	EXP 	q4_slider: styleTweaks = []
+14.5943 	EXP 	q4_slider: styleTweaks = []
+14.5943 	EXP 	q4_slider: styleTweaks = []
+14.5943 	EXP 	q4_slider: styleTweaks = []
+14.5943 	EXP 	q4_slider: contrast = 1.0
+14.5943 	EXP 	q4_slider: autoLog = True
+14.5943 	EXP 	q5_slider: autoLog = True
+14.5943 	EXP 	q5_slider: markerPos = None
+14.5943 	EXP 	q5_slider: styleTweaks = []
+14.5943 	EXP 	q5_slider: styleTweaks = []
+14.5943 	EXP 	q5_slider: styleTweaks = []
+14.5943 	EXP 	q5_slider: styleTweaks = []
+14.5943 	EXP 	q5_slider: contrast = 1.0
+14.5943 	EXP 	q5_slider: autoLog = True
+14.5943 	EXP 	slider: autoLog = True
+14.5943 	EXP 	slider: markerPos = None
+14.5943 	EXP 	slider: styleTweaks = []
+14.5943 	EXP 	slider: styleTweaks = []
+14.5943 	EXP 	slider: styleTweaks = ['triangleMarker']
+14.5943 	EXP 	slider: styleTweaks = ['triangleMarker']
+14.5943 	EXP 	slider: contrast = 1.0
+14.5943 	EXP 	slider: autoLog = True
+14.5943 	EXP 	textbox: autoLog = True
+14.5943 	EXP 	intro_text2: autoDraw = True
+23.3654 	WARNING 	t of last frame was 20.02ms (=1/49)
+23.4461 	WARNING 	t of last frame was 20.06ms (=1/49)
+61.3646 	WARNING 	t of last frame was 20.48ms (=1/48)
+61.4358 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+195.3552 	EXP 	Created sequence: sequential, trialTypes=1, nReps=100, seed=None
+195.3559 	EXP 	New trial (rep=0, index=0): None
+195.4730 	DATA 	Keypress: space
+195.4928 	EXP 	intro_text2: autoDraw = False
+195.4928 	EXP 	info_sheet_image: image = 'info/info1.png'
+195.4928 	EXP 	counter: height = 0.029999999999999995
+195.4928 	EXP 	counter: height = 0.029999999999999995
+195.4928 	EXP 	counter: height = 0.029999999999999995
+195.4928 	EXP 	counter: text = 'Page 1 of 4'
+195.4928 	EXP 	info_sheet_image: autoDraw = True
+195.4928 	EXP 	counter: autoDraw = True
+195.4928 	EXP 	move_text: autoDraw = True
+195.4928 	EXP 	info_sheet_next: autoDraw = True
+196.1107 	EXP 	New trial (rep=1, index=0): None
+196.2093 	DATA 	Keypress: right
+196.2279 	EXP 	info_sheet_image: autoDraw = False
+196.2279 	EXP 	counter: autoDraw = False
+196.2279 	EXP 	move_text: autoDraw = False
+196.2279 	EXP 	info_sheet_next: autoDraw = False
+196.2279 	EXP 	info_sheet_image: image = 'info/info2.png'
+196.2279 	EXP 	counter: height = 0.029999999999999995
+196.2279 	EXP 	counter: height = 0.029999999999999995
+196.2279 	EXP 	counter: height = 0.029999999999999995
+196.2279 	EXP 	counter: text = 'Page 2 of 4'
+196.2279 	EXP 	info_sheet_image: autoDraw = True
+196.2279 	EXP 	counter: autoDraw = True
+196.2279 	EXP 	move_text: autoDraw = True
+196.2279 	EXP 	info_sheet_next: autoDraw = True
+196.3105 	EXP 	New trial (rep=2, index=0): None
+196.3968 	DATA 	Keypress: right
+196.4135 	EXP 	info_sheet_image: autoDraw = False
+196.4135 	EXP 	counter: autoDraw = False
+196.4135 	EXP 	move_text: autoDraw = False
+196.4135 	EXP 	info_sheet_next: autoDraw = False
+196.4135 	EXP 	info_sheet_image: image = 'info/info3.png'
+196.4135 	EXP 	counter: height = 0.029999999999999995
+196.4135 	EXP 	counter: height = 0.029999999999999995
+196.4135 	EXP 	counter: height = 0.029999999999999995
+196.4135 	EXP 	counter: text = 'Page 3 of 4'
+196.4135 	EXP 	info_sheet_image: autoDraw = True
+196.4135 	EXP 	counter: autoDraw = True
+196.4135 	EXP 	move_text: autoDraw = True
+196.4135 	EXP 	info_sheet_next: autoDraw = True
+196.4939 	EXP 	New trial (rep=3, index=0): None
+196.5755 	DATA 	Keypress: right
+196.5951 	EXP 	info_sheet_image: autoDraw = False
+196.5951 	EXP 	counter: autoDraw = False
+196.5951 	EXP 	move_text: autoDraw = False
+196.5951 	EXP 	info_sheet_next: autoDraw = False
+196.5951 	EXP 	info_sheet_image: image = 'info/info4.png'
+196.5951 	EXP 	counter: height = 0.029999999999999995
+196.5951 	EXP 	counter: height = 0.029999999999999995
+196.5951 	EXP 	counter: height = 0.029999999999999995
+196.5951 	EXP 	counter: text = 'Page 4 of 4'
+196.5951 	EXP 	info_sheet_image: autoDraw = True
+196.5951 	EXP 	counter: autoDraw = True
+196.5951 	EXP 	move_text: autoDraw = True
+196.5951 	EXP 	info_sheet_next: autoDraw = True
+196.6440 	EXP 	New trial (rep=4, index=0): None
+196.7242 	DATA 	Keypress: right
+196.7437 	EXP 	info_sheet_image: autoDraw = False
+196.7437 	EXP 	counter: autoDraw = False
+196.7437 	EXP 	move_text: autoDraw = False
+196.7437 	EXP 	info_sheet_next: autoDraw = False
+196.7437 	EXP 	info_sheet_image: image = 'info/info4.png'
+196.7437 	EXP 	counter: text = 'Page 4 of 4'
+196.7437 	EXP 	info_sheet_image: autoDraw = True
+196.7437 	EXP 	counter: autoDraw = True
+196.7437 	EXP 	move_text: autoDraw = True
+196.7437 	EXP 	info_sheet_next: autoDraw = True
+196.7933 	EXP 	New trial (rep=5, index=0): None
+196.8828 	DATA 	Keypress: right
+196.9049 	EXP 	info_sheet_image: autoDraw = False
+196.9049 	EXP 	counter: autoDraw = False
+196.9049 	EXP 	move_text: autoDraw = False
+196.9049 	EXP 	info_sheet_next: autoDraw = False
+196.9049 	EXP 	info_sheet_image: image = 'info/info4.png'
+196.9049 	EXP 	counter: text = 'Page 4 of 4'
+196.9049 	EXP 	info_sheet_image: autoDraw = True
+196.9049 	EXP 	counter: autoDraw = True
+196.9049 	EXP 	move_text: autoDraw = True
+196.9049 	EXP 	info_sheet_next: autoDraw = True
+196.9438 	EXP 	New trial (rep=6, index=0): None
+197.0232 	DATA 	Keypress: right
+197.0422 	EXP 	info_sheet_image: autoDraw = False
+197.0422 	EXP 	counter: autoDraw = False
+197.0422 	EXP 	move_text: autoDraw = False
+197.0422 	EXP 	info_sheet_next: autoDraw = False
+197.0422 	EXP 	info_sheet_image: image = 'info/info4.png'
+197.0422 	EXP 	counter: text = 'Page 4 of 4'
+197.0422 	EXP 	info_sheet_image: autoDraw = True
+197.0422 	EXP 	counter: autoDraw = True
+197.0422 	EXP 	move_text: autoDraw = True
+197.0422 	EXP 	info_sheet_next: autoDraw = True
+197.6614 	DATA 	Keypress: return
+197.6824 	EXP 	Imported consent.csv as conditions, 6 conditions, 1 params
+197.6827 	EXP 	Created sequence: sequential, trialTypes=6, nReps=1, seed=None
+197.6830 	EXP 	New trial (rep=0, index=0): OrderedDict([('consent_item', '1 of 6\nI confirm that I have read the attached information sheet (Version A5.0; Date 26/05/2022) for the above study and have had the opportunity to consider the information and ask questions and had these answered satisfactorily.')])
+197.7176 	EXP 	info_sheet_image: autoDraw = False
+197.7176 	EXP 	counter: autoDraw = False
+197.7176 	EXP 	move_text: autoDraw = False
+197.7176 	EXP 	info_sheet_next: autoDraw = False
+197.7176 	EXP 	item_text: height = 0.04
+197.7176 	EXP 	item_text: height = 0.04
+197.7176 	EXP 	item_text: height = 0.04
+197.7176 	EXP 	item_text: text = '1 of 6\nI confirm that I have read the attached information sheet (Version A5.0; Date 26/05/2022) for the above study and have had the opportunity to consider the information and ask questions and had these answered satisfactorily.'
+197.7176 	EXP 	study_title: autoDraw = True
+197.7176 	EXP 	item_text: autoDraw = True
+197.7176 	EXP 	keypress_instructions: autoDraw = True
+198.9166 	DATA 	Keypress: y
+199.7431 	EXP 	New trial (rep=0, index=1): OrderedDict([('consent_item', '2 of 6\nI understand that my participation in the study is voluntary and that I am free to withdraw at any time without giving a reason and without detriment to myself (although I will not receive payment for this study). I understand that it will not be possible to remove my data from the project once it has been anonymised and forms part of the data set.  \n\nI agree to take part on this basis.')])
+199.7611 	DATA 	Keypress: y
+199.7640 	EXP 	study_title: autoDraw = False
+199.7640 	EXP 	item_text: autoDraw = False
+199.7640 	EXP 	keypress_instructions: autoDraw = False
+199.7640 	EXP 	item_text: height = 0.04
+199.7640 	EXP 	item_text: height = 0.04
+199.7640 	EXP 	item_text: height = 0.04
+199.7640 	EXP 	item_text: text = '2 of 6\nI understand that my participation in the study is voluntary and that I am free to withdraw at any time without giving a reason and without detriment to myself (although I will not receive payment for this study). I understand that it will not be possible to remove my data from the project once it has been anonymised and forms part of the data set.  \n\nI agree to take part on this basis.'
+199.7640 	EXP 	study_title: autoDraw = True
+199.7640 	EXP 	item_text: autoDraw = True
+199.7640 	EXP 	keypress_instructions: autoDraw = True
+202.2762 	EXP 	New trial (rep=0, index=2): OrderedDict([('consent_item', '3 of 6\nI agree that any data collected may be included in anonymous form in student theses/publications/conference presentations.')])
+202.2867 	DATA 	Keypress: y
+202.2919 	EXP 	study_title: autoDraw = False
+202.2919 	EXP 	item_text: autoDraw = False
+202.2919 	EXP 	keypress_instructions: autoDraw = False
+202.2919 	EXP 	item_text: height = 0.04
+202.2919 	EXP 	item_text: height = 0.04
+202.2919 	EXP 	item_text: height = 0.04
+202.2919 	EXP 	item_text: text = '3 of 6\nI agree that any data collected may be included in anonymous form in student theses/publications/conference presentations.'
+202.2919 	EXP 	study_title: autoDraw = True
+202.2919 	EXP 	item_text: autoDraw = True
+202.2919 	EXP 	keypress_instructions: autoDraw = True
+204.5259 	EXP 	New trial (rep=0, index=3): OrderedDict([('consent_item', '4 of 6\nI understand that a fully anonymised dataset will be deposited in public open data repositories.')])
+204.5354 	DATA 	Keypress: y
+204.5412 	EXP 	study_title: autoDraw = False
+204.5412 	EXP 	item_text: autoDraw = False
+204.5412 	EXP 	keypress_instructions: autoDraw = False
+204.5412 	EXP 	item_text: height = 0.04
+204.5412 	EXP 	item_text: height = 0.04
+204.5412 	EXP 	item_text: height = 0.04
+204.5412 	EXP 	item_text: text = '4 of 6\nI understand that a fully anonymised dataset will be deposited in public open data repositories.'
+204.5412 	EXP 	study_title: autoDraw = True
+204.5412 	EXP 	item_text: autoDraw = True
+204.5412 	EXP 	keypress_instructions: autoDraw = True
+206.7100 	EXP 	New trial (rep=0, index=4): OrderedDict([('consent_item', '5 of 6\nI understand that data collected during the study may be looked at by individuals from The University of Manchester or regulatory authorities, where it is relevant to my taking part in this research. I give permission for these individuals to have access to my data.')])
+206.7281 	DATA 	Keypress: y
+206.7316 	EXP 	study_title: autoDraw = False
+206.7316 	EXP 	item_text: autoDraw = False
+206.7316 	EXP 	keypress_instructions: autoDraw = False
+206.7316 	EXP 	item_text: height = 0.04
+206.7316 	EXP 	item_text: height = 0.04
+206.7316 	EXP 	item_text: height = 0.04
+206.7316 	EXP 	item_text: text = '5 of 6\nI understand that data collected during the study may be looked at by individuals from The University of Manchester or regulatory authorities, where it is relevant to my taking part in this research. I give permission for these individuals to have access to my data.'
+206.7316 	EXP 	study_title: autoDraw = True
+206.7316 	EXP 	item_text: autoDraw = True
+206.7316 	EXP 	keypress_instructions: autoDraw = True
+208.2787 	DATA 	Keypress: y
+208.6300 	DATA 	Keypress: y
+209.0929 	EXP 	New trial (rep=0, index=5): OrderedDict([('consent_item', '6 of 6\nI agree to take part in this study.')])
+209.0999 	DATA 	Keypress: y
+209.1084 	EXP 	study_title: autoDraw = False
+209.1084 	EXP 	item_text: autoDraw = False
+209.1084 	EXP 	keypress_instructions: autoDraw = False
+209.1084 	EXP 	item_text: height = 0.04
+209.1084 	EXP 	item_text: height = 0.04
+209.1084 	EXP 	item_text: height = 0.04
+209.1084 	EXP 	item_text: text = '6 of 6\nI agree to take part in this study.'
+209.1084 	EXP 	study_title: autoDraw = True
+209.1084 	EXP 	item_text: autoDraw = True
+209.1084 	EXP 	keypress_instructions: autoDraw = True
+209.6787 	DATA 	Keypress: y
+211.0961 	DATA 	Keypress: y
+211.3813 	DATA 	Keypress: y
+211.4317 	EXP 	study_title: autoDraw = False
+211.4317 	EXP 	item_text: autoDraw = False
+211.4317 	EXP 	keypress_instructions: autoDraw = False
+211.4317 	EXP 	genderResp1: markerPos = None
+211.4317 	EXP 	genderResp1: markerPos = None
+211.4317 	EXP 	ageResp: autoDraw = True
+211.4317 	EXP 	age: autoDraw = True
+211.4317 	EXP 	gender: autoDraw = True
+211.4317 	EXP 	genderResp1: autoDraw = True
+211.4317 	EXP 	genderResp2: autoDraw = True
+211.4317 	EXP 	continue_box_2: autoDraw = True
+211.4317 	EXP 	continue_text_2: autoDraw = True
+212.0973 	DATA 	Keypress: backspace
+212.5219 	DATA 	Keypress: 2
+212.7595 	DATA 	Keypress: 0
+214.4122 	DATA 	Mouse: Left button down, pos=(497,326)
+214.5152 	DATA 	Mouse:  Left button up, pos=(497,326)
+215.0785 	DATA 	Mouse: Left button down, pos=(499,325)
+215.0906 	EXP 	genderResp1: markerPos = 3.037037037037037
+215.1077 	EXP 	genderResp1: markerPos = 3.037037037037037
+215.1251 	EXP 	genderResp1: markerPos = 3.037037037037037
+215.1430 	EXP 	genderResp1: markerPos = 3.037037037037037
+215.1601 	EXP 	genderResp1: markerPos = 3.037037037037037
+215.1766 	EXP 	genderResp1: markerPos = 3.037037037037037
+215.1932 	EXP 	genderResp1: markerPos = 3.037037037037037
+215.2100 	EXP 	genderResp1: markerPos = 3.037037037037037
+215.2268 	EXP 	genderResp1: markerPos = 3.037037037037037
+215.2316 	DATA 	Mouse:  Left button up, pos=(499,325)
+215.2430 	EXP 	genderResp1: markerPos = 3.0
+215.9620 	DATA 	Mouse: Left button down, pos=(647,81)
+216.0183 	EXP 	ageResp: autoDraw = False
+216.0183 	EXP 	age: autoDraw = False
+216.0183 	EXP 	gender: autoDraw = False
+216.0183 	EXP 	genderResp1: autoDraw = False
+216.0183 	EXP 	genderResp2: autoDraw = False
+216.0183 	EXP 	continue_box_2: autoDraw = False
+216.0183 	EXP 	continue_text_2: autoDraw = False
+216.0183 	EXP 	edu_slider: markerPos = None
+216.0183 	EXP 	edu_slider: markerPos = None
+216.0183 	EXP 	edu_text: autoDraw = True
+216.0183 	EXP 	edu_slider: autoDraw = True
+216.0447 	DATA 	Mouse:  Left button up, pos=(647,81)
+216.8197 	DATA 	Mouse: Left button down, pos=(635,295)
+216.8428 	EXP 	edu_slider: markerPos = 3.9361111111111113
+216.8600 	EXP 	edu_slider: markerPos = 3.9361111111111113
+216.8768 	EXP 	edu_slider: markerPos = 3.9361111111111113
+216.8930 	EXP 	edu_slider: markerPos = 3.9361111111111113
+216.9060 	DATA 	Mouse:  Left button up, pos=(635,295)
+216.9097 	EXP 	edu_slider: markerPos = 3.9361111111111113
+216.9261 	EXP 	edu_slider: markerPos = 4.0
+218.5208 	DATA 	Mouse: Left button down, pos=(641,237)
+218.5434 	EXP 	edu_slider: markerPos = 2.808333333333333
+218.5598 	EXP 	edu_slider: markerPos = 2.808333333333333
+218.5765 	EXP 	edu_slider: markerPos = 2.808333333333333
+218.5932 	EXP 	edu_slider: markerPos = 2.808333333333333
+218.6100 	EXP 	edu_slider: markerPos = 2.808333333333333
+218.6116 	DATA 	Mouse:  Left button up, pos=(641,237)
+218.6267 	EXP 	edu_slider: markerPos = 3.0
+219.3770 	DATA 	Keypress: space
+219.4622 	EXP 	edu_text: autoDraw = False
+219.4622 	EXP 	edu_slider: autoDraw = False
+219.4622 	EXP 	q1_slider: markerPos = None
+219.4622 	EXP 	q1_slider: markerPos = None
+219.4622 	EXP 	q2_slider: markerPos = None
+219.4622 	EXP 	q2_slider: markerPos = None
+219.4622 	EXP 	q3_slider: markerPos = None
+219.4622 	EXP 	q3_slider: markerPos = None
+219.4622 	EXP 	q4_slider: markerPos = None
+219.4622 	EXP 	q4_slider: markerPos = None
+219.4622 	EXP 	q5_slider: markerPos = None
+219.4622 	EXP 	q5_slider: markerPos = None
+219.4622 	EXP 	questions_text: alignText = 'right'
+219.4622 	EXP 	literacy_top: autoDraw = True
+219.4622 	EXP 	questions_text: autoDraw = True
+219.4622 	EXP 	q1_slider: autoDraw = True
+219.4622 	EXP 	q2_slider: autoDraw = True
+219.4622 	EXP 	q3_slider: autoDraw = True
+219.4622 	EXP 	q4_slider: autoDraw = True
+219.4622 	EXP 	q5_slider: autoDraw = True
+219.4622 	EXP 	questions_text: height = 0.029999999999999995
+219.4622 	EXP 	questions_text: height = 0.029999999999999995
+219.4622 	EXP 	questions_text: height = 0.029999999999999995
+219.4622 	EXP 	questions_text: text = 'How good are you at working with bar charts?\n\n\n\nHow good are you at working with line plots?\n\n\n\nHow good are you at working with pie charts?\n\n\n\nHow good are you at inferring the size of a bar in a bar chart?\n\n\n\nHow good are you at determining the difference between two bars in a bar chart?'
+220.0613 	DATA 	Mouse: Left button down, pos=(952,360)
+220.1784 	DATA 	Mouse:  Left button up, pos=(952,360)
+221.3950 	DATA 	Mouse: Left button down, pos=(959,555)
+221.4192 	EXP 	q1_slider: markerPos = 3.994949494949495
+221.4405 	EXP 	q1_slider: markerPos = 3.994949494949495
+221.4624 	EXP 	q1_slider: markerPos = 3.994949494949495
+221.4776 	DATA 	Mouse:  Left button up, pos=(960,555)
+221.4832 	EXP 	q1_slider: markerPos = 3.994949494949495
+221.5024 	EXP 	q1_slider: markerPos = 4.0
+222.2463 	DATA 	Mouse: Left button down, pos=(955,456)
+222.2740 	EXP 	q2_slider: markerPos = 3.9318181818181817
+222.2965 	EXP 	q2_slider: markerPos = 3.9318181818181817
+222.3123 	DATA 	Mouse:  Left button up, pos=(955,456)
+222.3177 	EXP 	q2_slider: markerPos = 3.9318181818181817
+222.3395 	EXP 	q2_slider: markerPos = 4.0
+223.0284 	DATA 	Mouse: Left button down, pos=(955,340)
+223.0519 	EXP 	q3_slider: markerPos = 3.9318181818181817
+223.0751 	EXP 	q3_slider: markerPos = 3.9318181818181817
+223.0967 	EXP 	q3_slider: markerPos = 3.9318181818181817
+223.1183 	EXP 	q3_slider: markerPos = 3.9318181818181817
+223.1275 	DATA 	Mouse:  Left button up, pos=(955,340)
+223.1418 	EXP 	q3_slider: markerPos = 4.0
+223.7613 	DATA 	Mouse: Left button down, pos=(951,244)
+223.7812 	EXP 	q4_slider: markerPos = 3.8813131313131315
+223.8008 	EXP 	q4_slider: markerPos = 3.8813131313131315
+223.8230 	EXP 	q4_slider: markerPos = 3.8813131313131315
+223.8460 	EXP 	q4_slider: markerPos = 3.8813131313131315
+223.8475 	DATA 	Mouse:  Left button up, pos=(951,244)
+223.8664 	EXP 	q4_slider: markerPos = 4.0
+225.0302 	DATA 	Mouse: Left button down, pos=(1106,118)
+225.0385 	EXP 	q5_slider: markerPos = 5.838383838383838
+225.0630 	EXP 	q5_slider: markerPos = 5.838383838383838
+225.0856 	EXP 	q5_slider: markerPos = 5.838383838383838
+225.1097 	EXP 	q5_slider: markerPos = 5.838383838383838
+225.1322 	EXP 	q5_slider: markerPos = 5.838383838383838
+225.1562 	EXP 	q5_slider: markerPos = 5.838383838383838
+225.1614 	DATA 	Mouse:  Left button up, pos=(1106,118)
+225.1791 	EXP 	q5_slider: markerPos = 6.0
+225.8023 	DATA 	Keypress: space
+225.8122 	EXP 	Imported wenqi_instructions.csv as conditions, 8 conditions, 5 params
+225.8125 	EXP 	Created sequence: sequential, trialTypes=8, nReps=1, seed=None
+225.8127 	EXP 	New trial (rep=0, index=0): OrderedDict([('slide_text', 'Slide 1 of 8'), ('instruction', 'This experiment is about using information to make decisions. Each trial will look similar to this:'), ('triangle_pos', 10.0), ('arrow_posy', 10.0), ('arrow_posx', 10.0)])
+225.8322 	EXP 	literacy_top: autoDraw = False
+225.8322 	EXP 	questions_text: autoDraw = False
+225.8322 	EXP 	q1_slider: autoDraw = False
+225.8322 	EXP 	q2_slider: autoDraw = False
+225.8322 	EXP 	q3_slider: autoDraw = False
+225.8322 	EXP 	q4_slider: autoDraw = False
+225.8322 	EXP 	q5_slider: autoDraw = False
+225.8322 	EXP 	slide_number: height = 0.025
+225.8322 	EXP 	slide_number: height = 0.025
+225.8322 	EXP 	slide_number: height = 0.025
+225.8322 	EXP 	slide_number: text = 'Slide 1 of 8'
+225.8322 	EXP 	instruction_text: height = 0.04
+225.8322 	EXP 	instruction_text: height = 0.04
+225.8322 	EXP 	instruction_text: height = 0.04
+225.8322 	EXP 	instruction_text: text = 'This experiment is about using information to make decisions. Each trial will look similar to this:'
+225.8322 	EXP 	slide_number: autoDraw = True
+225.8322 	EXP 	instruction_text: autoDraw = True
+225.8322 	EXP 	spacebar_3: autoDraw = True
+225.8322 	EXP 	instruction_image: autoDraw = True
+225.8322 	EXP 	EXsentence1: autoDraw = True
+225.8322 	EXP 	question_text_2: autoDraw = True
+225.8322 	EXP 	slider_image: autoDraw = True
+225.8322 	EXP 	triangle: autoDraw = True
+225.8322 	EXP 	arrow: autoDraw = True
+227.9596 	EXP 	New trial (rep=0, index=1): OrderedDict([('slide_text', 'Slide 2 of 8'), ('instruction', 'First, you should read the text above the image.'), ('triangle_pos', 10.0), ('arrow_posy', 0.15), ('arrow_posx', -0.55)])
+227.9720 	DATA 	Keypress: space
+227.9766 	EXP 	slide_number: autoDraw = False
+227.9766 	EXP 	instruction_text: autoDraw = False
+227.9766 	EXP 	spacebar_3: autoDraw = False
+227.9766 	EXP 	instruction_image: autoDraw = False
+227.9766 	EXP 	EXsentence1: autoDraw = False
+227.9766 	EXP 	question_text_2: autoDraw = False
+227.9766 	EXP 	slider_image: autoDraw = False
+227.9766 	EXP 	triangle: autoDraw = False
+227.9766 	EXP 	arrow: autoDraw = False
+227.9766 	EXP 	slide_number: height = 0.025
+227.9766 	EXP 	slide_number: height = 0.025
+227.9766 	EXP 	slide_number: height = 0.025
+227.9766 	EXP 	slide_number: text = 'Slide 2 of 8'
+227.9766 	EXP 	instruction_text: height = 0.04
+227.9766 	EXP 	instruction_text: height = 0.04
+227.9766 	EXP 	instruction_text: height = 0.04
+227.9766 	EXP 	instruction_text: text = 'First, you should read the text above the image.'
+227.9766 	EXP 	slide_number: autoDraw = True
+227.9766 	EXP 	instruction_text: autoDraw = True
+227.9766 	EXP 	spacebar_3: autoDraw = True
+227.9766 	EXP 	instruction_image: autoDraw = True
+227.9766 	EXP 	EXsentence1: autoDraw = True
+227.9766 	EXP 	question_text_2: autoDraw = True
+227.9766 	EXP 	slider_image: autoDraw = True
+227.9766 	EXP 	triangle: autoDraw = True
+227.9766 	EXP 	arrow: autoDraw = True
+228.8951 	DATA 	Keypress: space
+229.4293 	DATA 	Keypress: space
+230.7769 	EXP 	New trial (rep=0, index=2): OrderedDict([('slide_text', 'Slide 3 of 8'), ('instruction', 'Then you should look at the image. It will show a map of a country. The colour of each region of the country reflects its pollution level. Pollution levels are displayed in standardised units.'), ('triangle_pos', 10.0), ('arrow_posy', -0.075), ('arrow_posx', -0.24)])
+230.7935 	DATA 	Keypress: space
+230.7967 	EXP 	slide_number: autoDraw = False
+230.7967 	EXP 	instruction_text: autoDraw = False
+230.7967 	EXP 	spacebar_3: autoDraw = False
+230.7967 	EXP 	instruction_image: autoDraw = False
+230.7967 	EXP 	EXsentence1: autoDraw = False
+230.7967 	EXP 	question_text_2: autoDraw = False
+230.7967 	EXP 	slider_image: autoDraw = False
+230.7967 	EXP 	triangle: autoDraw = False
+230.7967 	EXP 	arrow: autoDraw = False
+230.7967 	EXP 	slide_number: height = 0.025
+230.7967 	EXP 	slide_number: height = 0.025
+230.7967 	EXP 	slide_number: height = 0.025
+230.7967 	EXP 	slide_number: text = 'Slide 3 of 8'
+230.7967 	EXP 	instruction_text: height = 0.04
+230.7967 	EXP 	instruction_text: height = 0.04
+230.7967 	EXP 	instruction_text: height = 0.04
+230.7967 	EXP 	instruction_text: text = 'Then you should look at the image. It will show a map of a country. The colour of each region of the country reflects its pollution level. Pollution levels are displayed in standardised units.'
+230.7967 	EXP 	slide_number: autoDraw = True
+230.7967 	EXP 	instruction_text: autoDraw = True
+230.7967 	EXP 	spacebar_3: autoDraw = True
+230.7967 	EXP 	instruction_image: autoDraw = True
+230.7967 	EXP 	EXsentence1: autoDraw = True
+230.7967 	EXP 	question_text_2: autoDraw = True
+230.7967 	EXP 	slider_image: autoDraw = True
+230.7967 	EXP 	triangle: autoDraw = True
+230.7967 	EXP 	arrow: autoDraw = True
+239.6604 	EXP 	New trial (rep=0, index=3): OrderedDict([('slide_text', 'Slide 4 of 8'), ('instruction', 'Data on different types of pollution are shown throughout the experiment. (A colour scale may be provided or not provided to you.)'), ('triangle_pos', 10.0), ('arrow_posy', -0.075), ('arrow_posx', -0.24)])
+239.6747 	DATA 	Keypress: space
+239.6778 	EXP 	slide_number: autoDraw = False
+239.6778 	EXP 	instruction_text: autoDraw = False
+239.6778 	EXP 	spacebar_3: autoDraw = False
+239.6778 	EXP 	instruction_image: autoDraw = False
+239.6778 	EXP 	EXsentence1: autoDraw = False
+239.6778 	EXP 	question_text_2: autoDraw = False
+239.6778 	EXP 	slider_image: autoDraw = False
+239.6778 	EXP 	triangle: autoDraw = False
+239.6778 	EXP 	arrow: autoDraw = False
+239.6778 	EXP 	slide_number: height = 0.025
+239.6778 	EXP 	slide_number: height = 0.025
+239.6778 	EXP 	slide_number: height = 0.025
+239.6778 	EXP 	slide_number: text = 'Slide 4 of 8'
+239.6778 	EXP 	instruction_text: height = 0.04
+239.6778 	EXP 	instruction_text: height = 0.04
+239.6778 	EXP 	instruction_text: height = 0.04
+239.6778 	EXP 	instruction_text: text = 'Data on different types of pollution are shown throughout the experiment. (A colour scale may be provided or not provided to you.)'
+239.6778 	EXP 	slide_number: autoDraw = True
+239.6778 	EXP 	instruction_text: autoDraw = True
+239.6778 	EXP 	spacebar_3: autoDraw = True
+239.6778 	EXP 	instruction_image: autoDraw = True
+239.6778 	EXP 	EXsentence1: autoDraw = True
+239.6778 	EXP 	question_text_2: autoDraw = True
+239.6778 	EXP 	slider_image: autoDraw = True
+239.6778 	EXP 	triangle: autoDraw = True
+239.6778 	EXP 	arrow: autoDraw = True
+240.4806 	DATA 	Keypress: space
+241.4474 	DATA 	Keypress: space
+242.0091 	EXP 	New trial (rep=0, index=4): OrderedDict([('slide_text', 'Slide 5 of 8'), ('instruction', 'Then you should read the question below the image. Here, the question asks you to rate how severe the pollution levels in the pointed region is.'), ('triangle_pos', 10.0), ('arrow_posy', -0.28), ('arrow_posx', -0.53)])
+242.0231 	DATA 	Keypress: space
+242.0265 	EXP 	slide_number: autoDraw = False
+242.0265 	EXP 	instruction_text: autoDraw = False
+242.0265 	EXP 	spacebar_3: autoDraw = False
+242.0265 	EXP 	instruction_image: autoDraw = False
+242.0265 	EXP 	EXsentence1: autoDraw = False
+242.0265 	EXP 	question_text_2: autoDraw = False
+242.0265 	EXP 	slider_image: autoDraw = False
+242.0265 	EXP 	triangle: autoDraw = False
+242.0265 	EXP 	arrow: autoDraw = False
+242.0265 	EXP 	slide_number: height = 0.025
+242.0265 	EXP 	slide_number: height = 0.025
+242.0265 	EXP 	slide_number: height = 0.025
+242.0265 	EXP 	slide_number: text = 'Slide 5 of 8'
+242.0265 	EXP 	instruction_text: height = 0.04
+242.0265 	EXP 	instruction_text: height = 0.04
+242.0265 	EXP 	instruction_text: height = 0.04
+242.0265 	EXP 	instruction_text: text = 'Then you should read the question below the image. Here, the question asks you to rate how severe the pollution levels in the pointed region is.'
+242.0265 	EXP 	slide_number: autoDraw = True
+242.0265 	EXP 	instruction_text: autoDraw = True
+242.0265 	EXP 	spacebar_3: autoDraw = True
+242.0265 	EXP 	instruction_image: autoDraw = True
+242.0265 	EXP 	EXsentence1: autoDraw = True
+242.0265 	EXP 	question_text_2: autoDraw = True
+242.0265 	EXP 	slider_image: autoDraw = True
+242.0265 	EXP 	triangle: autoDraw = True
+242.0265 	EXP 	arrow: autoDraw = True
+244.3919 	EXP 	New trial (rep=0, index=5): OrderedDict([('slide_text', 'Slide 6 of 8'), ('instruction', 'You should move the marker to indicate your response.'), ('triangle_pos', 0.0), ('arrow_posy', -0.36), ('arrow_posx', -0.45)])
+244.4023 	DATA 	Keypress: space
+244.4075 	EXP 	slide_number: autoDraw = False
+244.4075 	EXP 	instruction_text: autoDraw = False
+244.4075 	EXP 	spacebar_3: autoDraw = False
+244.4075 	EXP 	instruction_image: autoDraw = False
+244.4075 	EXP 	EXsentence1: autoDraw = False
+244.4075 	EXP 	question_text_2: autoDraw = False
+244.4075 	EXP 	slider_image: autoDraw = False
+244.4075 	EXP 	triangle: autoDraw = False
+244.4075 	EXP 	arrow: autoDraw = False
+244.4075 	EXP 	slide_number: height = 0.025
+244.4075 	EXP 	slide_number: height = 0.025
+244.4075 	EXP 	slide_number: height = 0.025
+244.4075 	EXP 	slide_number: text = 'Slide 6 of 8'
+244.4075 	EXP 	instruction_text: height = 0.04
+244.4075 	EXP 	instruction_text: height = 0.04
+244.4075 	EXP 	instruction_text: height = 0.04
+244.4075 	EXP 	instruction_text: text = 'You should move the marker to indicate your response.'
+244.4075 	EXP 	slide_number: autoDraw = True
+244.4075 	EXP 	instruction_text: autoDraw = True
+244.4075 	EXP 	spacebar_3: autoDraw = True
+244.4075 	EXP 	instruction_image: autoDraw = True
+244.4075 	EXP 	EXsentence1: autoDraw = True
+244.4075 	EXP 	question_text_2: autoDraw = True
+244.4075 	EXP 	slider_image: autoDraw = True
+244.4075 	EXP 	triangle: autoDraw = True
+244.4075 	EXP 	arrow: autoDraw = True
+247.0933 	EXP 	New trial (rep=0, index=6): OrderedDict([('slide_text', 'Slide 7 of 8'), ('instruction', 'You can change your answer as many times as you like, then you should press the spacebar to move on to the next trial.'), ('triangle_pos', 0.1), ('arrow_posy', -0.36), ('arrow_posx', -0.45)])
+247.1074 	DATA 	Keypress: space
+247.1105 	EXP 	slide_number: autoDraw = False
+247.1105 	EXP 	instruction_text: autoDraw = False
+247.1105 	EXP 	spacebar_3: autoDraw = False
+247.1105 	EXP 	instruction_image: autoDraw = False
+247.1105 	EXP 	EXsentence1: autoDraw = False
+247.1105 	EXP 	question_text_2: autoDraw = False
+247.1105 	EXP 	slider_image: autoDraw = False
+247.1105 	EXP 	triangle: autoDraw = False
+247.1105 	EXP 	arrow: autoDraw = False
+247.1105 	EXP 	slide_number: height = 0.025
+247.1105 	EXP 	slide_number: height = 0.025
+247.1105 	EXP 	slide_number: height = 0.025
+247.1105 	EXP 	slide_number: text = 'Slide 7 of 8'
+247.1105 	EXP 	instruction_text: height = 0.04
+247.1105 	EXP 	instruction_text: height = 0.04
+247.1105 	EXP 	instruction_text: height = 0.04
+247.1105 	EXP 	instruction_text: text = 'You can change your answer as many times as you like, then you should press the spacebar to move on to the next trial.'
+247.1105 	EXP 	slide_number: autoDraw = True
+247.1105 	EXP 	instruction_text: autoDraw = True
+247.1105 	EXP 	spacebar_3: autoDraw = True
+247.1105 	EXP 	instruction_image: autoDraw = True
+247.1105 	EXP 	EXsentence1: autoDraw = True
+247.1105 	EXP 	question_text_2: autoDraw = True
+247.1105 	EXP 	slider_image: autoDraw = True
+247.1105 	EXP 	triangle: autoDraw = True
+247.1105 	EXP 	arrow: autoDraw = True
+248.7118 	DATA 	Keypress: space
+249.1974 	DATA 	Keypress: space
+249.2100 	EXP 	New trial (rep=0, index=7): OrderedDict([('slide_text', 'Slide 8 of 8'), ('instruction', 'Press the spacebar to begin the experiment.'), ('triangle_pos', -0.1), ('arrow_posy', 10.0), ('arrow_posx', 10.0)])
+249.2245 	EXP 	slide_number: autoDraw = False
+249.2245 	EXP 	instruction_text: autoDraw = False
+249.2245 	EXP 	spacebar_3: autoDraw = False
+249.2245 	EXP 	instruction_image: autoDraw = False
+249.2245 	EXP 	EXsentence1: autoDraw = False
+249.2245 	EXP 	question_text_2: autoDraw = False
+249.2245 	EXP 	slider_image: autoDraw = False
+249.2245 	EXP 	triangle: autoDraw = False
+249.2245 	EXP 	arrow: autoDraw = False
+249.2245 	EXP 	slide_number: height = 0.025
+249.2245 	EXP 	slide_number: height = 0.025
+249.2245 	EXP 	slide_number: height = 0.025
+249.2245 	EXP 	slide_number: text = 'Slide 8 of 8'
+249.2245 	EXP 	instruction_text: height = 0.04
+249.2245 	EXP 	instruction_text: height = 0.04
+249.2245 	EXP 	instruction_text: height = 0.04
+249.2245 	EXP 	instruction_text: text = 'Press the spacebar to begin the experiment.'
+249.2245 	EXP 	slide_number: autoDraw = True
+249.2245 	EXP 	instruction_text: autoDraw = True
+249.2245 	EXP 	spacebar_3: autoDraw = True
+249.2245 	EXP 	instruction_image: autoDraw = True
+249.2245 	EXP 	EXsentence1: autoDraw = True
+249.2245 	EXP 	question_text_2: autoDraw = True
+249.2245 	EXP 	slider_image: autoDraw = True
+249.2245 	EXP 	triangle: autoDraw = True
+249.2245 	EXP 	arrow: autoDraw = True
+252.3044 	EXP 	Imported lists/group_a_list.xlsx as conditions, 20 conditions, 7 params
+252.3050 	EXP 	Created sequence: sequential, trialTypes=20, nReps=1, seed=None
+252.3054 	EXP 	New trial (rep=0, index=0): {'item_no': 1, 'sentence': 'This map shows the levels of a certain type of pollution in this country:', 'question': 'How severe do you think the environmental pollution in this pointed region is?', 'correct_option': 'NA', 'granularity': 0, 'file_name': '1cs', 'file_path': 'images/group_a/1cs.jpeg'}
+252.3305 	DATA 	Keypress: space
+252.3465 	EXP 	slide_number: autoDraw = False
+252.3465 	EXP 	instruction_text: autoDraw = False
+252.3465 	EXP 	spacebar_3: autoDraw = False
+252.3465 	EXP 	instruction_image: autoDraw = False
+252.3465 	EXP 	EXsentence1: autoDraw = False
+252.3465 	EXP 	question_text_2: autoDraw = False
+252.3465 	EXP 	slider_image: autoDraw = False
+252.3465 	EXP 	triangle: autoDraw = False
+252.3465 	EXP 	arrow: autoDraw = False
+252.3465 	EXP 	sentence_text: height = 0.029999999999999995
+252.3465 	EXP 	sentence_text: height = 0.029999999999999995
+252.3465 	EXP 	sentence_text: height = 0.029999999999999995
+252.3465 	EXP 	sentence_text: text = 'This map shows the levels of a certain type of pollution in this country:'
+252.3465 	EXP 	image: image = 'images/group_a/1cs.jpeg'
+252.3465 	EXP 	question_text: height = 0.029999999999999995
+252.3465 	EXP 	question_text: height = 0.029999999999999995
+252.3465 	EXP 	question_text: height = 0.029999999999999995
+252.3465 	EXP 	question_text: text = 'How severe do you think the environmental pollution in this pointed region is?'
+252.3465 	EXP 	slider: markerPos = None
+252.3465 	EXP 	slider: markerPos = None
+252.3465 	EXP 	trial_counter_text: height = 0.025
+252.3465 	EXP 	trial_counter_text: height = 0.025
+252.3465 	EXP 	trial_counter_text: height = 0.025
+252.3465 	EXP 	trial_counter_text: text = 'Trial 1 of 20'
+252.3465 	EXP 	sentence_text: autoDraw = True
+252.3465 	EXP 	image: autoDraw = True
+252.3465 	EXP 	question_text: autoDraw = True
+252.3465 	EXP 	slider: autoDraw = True
+252.3465 	EXP 	trial_counter_text: autoDraw = True
+252.3465 	EXP 	spacebar_text: autoDraw = True
+253.5432 	DATA 	Keypress: escape
+254.1950 	EXP 	window1: mouseVisible = True

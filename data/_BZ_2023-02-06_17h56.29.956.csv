@@ -1,0 +1,22 @@
+﻿consent_item,info_sheet_loop.thisRepN,info_sheet_loop.thisTrialN,info_sheet_loop.thisN,info_sheet_loop.thisIndex,consent_loop.thisRepN,consent_loop.thisTrialN,consent_loop.thisN,consent_loop.thisIndex,instructions_loop.thisRepN,instructions_loop.thisTrialN,instructions_loop.thisN,instructions_loop.thisIndex,slide_text,instruction,triangle_pos,arrow_posy,arrow_posx,study_title.started,consent_key.keys,consent_key.rt,ageResp.started,age.started,gender.started,genderResp1.started,genderResp2.started,continue_box_2.started,continue_text_2.started,mouse_3.started,ageResp.text,genderResp1.response,genderResp1.rt,genderResp2.text,mouse_3.x,mouse_3.y,mouse_3.leftButton,mouse_3.midButton,mouse_3.rightButton,mouse_3.clicked_name,edu_slider.response,q1_slider.response,q2_slider.response,q3_slider.response,q4_slider.response,q5_slider.response,slide_number.started,instruction_text.started,spacebar_3.started,instruction_image.started,EXsentence1.started,question_text_2.started,triangle.started,slider_example.started,arrow.started,next_slide_key.started,participant,session,study_id,date,expName,psychopyVersion,frameRate,
+,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+,1,0,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+,2,0,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+,3,0,3,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+,4,0,4,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+"1 of 6
+I confirm that I have read the attached information sheet (Version A5.0; Date 26/05/2022) for the above study and have had the opportunity to consider the information and ask questions and had these answered satisfactorily.",,,,,0,0,0,0,,,,,,,,,,26.77637086692266,y,0.07258530193939805,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+"2 of 6
+I understand that my participation in the study is voluntary and that I am free to withdraw at any time without giving a reason and without detriment to myself (although I will not receive payment for this study). I understand that it will not be possible to remove my data from the project once it has been anonymised and forms part of the data set.  
+
+I agree to take part on this basis.",,,,,0,1,1,1,,,,,,,,,,28.825225000968203,y,0.1326848161406815,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+"3 of 6
+I agree that any data collected may be included in anonymous form in student theses/publications/conference presentations.",,,,,0,2,2,2,,,,,,,,,,30.96537906397134,y,0.49049951788038015,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+"4 of 6
+I understand that a fully anonymised dataset will be deposited in public open data repositories.",,,,,0,3,3,3,,,,,,,,,,33.465084708994254,y,0.4760842078831047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+"5 of 6
+I understand that data collected during the study may be looked at by individuals from The University of Manchester or regulatory authorities, where it is relevant to my taking part in this research. I give permission for these individuals to have access to my data.",,,,,0,4,4,4,,,,,,,,,,35.97111364803277,y,0.11078260093927383,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+"6 of 6
+I agree to take part in this study.",,,,,0,5,5,5,,,,,,,,,,38.07980090286583,y,0.19267685688100755,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+,,,,,,,,,,,,,,,,,,,,,40.370143631938845,40.370143631938845,40.370143631938845,40.370143631938845,40.370143631938845,40.370143631938845,40.370143631938845,4.416065620956942,20,5.0,4.399753537029028,,0.04583333333333333,-0.4236111111111111,1,0,0,continue_box_2,,,,,,,,,,,,,,,,,,,,2023-02-06_17h56.29.956,BZ,2022.2.4,None,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,5.0,4.0,4.0,5.0,4.0,53.85813746089116,53.85813746089116,53.85813746089116,53.85813746089116,53.85813746089116,53.85813746089116,53.85813746089116,53.85813746089116,53.85813746089116,55.812983855837956,,,,,,,,
